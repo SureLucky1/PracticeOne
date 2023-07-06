@@ -1,0 +1,371 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.first,
+.secondRow,
+.fourthRow,
+.six,
+.seven,
+.eight,
+.nine,
+.ten{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.first .container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 30px 0px;
+}
+
+.first .container div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+justify-content: center;
+  margin-left: 120px;
+  position: relative;
+  top: 30px;
+}
+
+.first .container img{
+margin-right: 100px;
+}
+
+.first .container div .Input{
+width: 117%;
+height: 50px;
+  margin-top: 0px;
+}
+.first .container div input{
+width: 80%;
+height: 50px;
+  margin-top: 30px;
+}
+
+.first .container div div{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  right: 75px;
+  height: 0px;
+  position: relative;
+bottom: 100px;
+}
+
+.first .container div .spann span{
+color: white;
+font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 160px;
+
+}
+
+.first .container div .spann div span{
+  border: 2px solid white;
+  width: 140px;
+  font-size: 15px;
+  padding: 3px 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 220px;
+  border-radius: 25px;
+}
+.first .container div div div span:hover{
+color: black;
+background-color: white;
+transition: 0.4s;
+}
+
+.first .container div,
+.first .container img{
+  margin: 70px 70px;
+}
+
+.secondRow{
+  margin: 30px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 30px;
+}
+.secondRow img{
+  margin: 0px 35px;
+
+}
+
+.thirdRow{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:50px 0px;
+  width: 100%;
+  position: relative;
+  bottom: 20px;
+}
+
+.fourthRow .container{
+  padding-top: 40px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 110%;
+}
+
+.fourthRow .container div{
+  width: 500px; 
+  height: 400px
+}
+.fourthRow .container div div p{
+font-size: 20px;
+}
+.fourthRow .container div div div{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30px;
+}
+
+.fourthRow .container embed{
+  margin-left: 70px;
+  position: relative;
+  left: 100px;
+  width: 1200px; 
+  height: 450px
+}
+
+.fiveRow .container{
+    padding: 80px 0px;
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.fiveRow .container h1{
+text-align: flex-start;
+}
+
+.fiveRow .container div{
+      display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.fiveRow .container div div{
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 20px;
+  width: 250px;
+}
+.fiveRow .container div div div{
+  width: 50px;
+  height: 75px;
+  border-bottom: 2px solid rgb(207, 200, 200);
+
+}
+.fiveRow .container div div div:hover{
+  width: 95px;
+  border-bottom: 2px solid rgb(89, 180, 15);
+  transition: 0.3s;
+}
+
+.six{
+      display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19, 4, 100);
+  color: white;
+}
+.six .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  height: 600px;
+}
+
+.six .container div{
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 30px;
+
+}
+.six .container div button{
+  bottom: 60px;
+  position: relative;
+
+}
+.six .container div div div{
+      display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.six div p{
+font-size: 20px;
+}
+
+.six div div{
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.six div div div{
+      display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 25px;
+  margin: 5px 0px;
+}
+
+.six div button{
+  margin-top: 100px;
+padding: 15px 30px;
+  margin-bottom: 70px;
+  background-color: rgb(59, 197, 112);
+  color: white;
+}
+.six div button:hover{
+opacity: 0.8;
+}
+
+.eight{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.eight .container div{
+  left: 50px;
+  position: relative;
+}
+
+.eight .container div h3{
+margin: 30px 0px;
+}
+
+.eight .container div p{
+font-size: 20px;
+}
+
+.eight .container div button{
+font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 8px;
+color:blue;
+}
+.eight .container div button:hover{
+opacity: 0.7;
+}
+
+.nine{
+  margin-top: 50px;
+position: relative;
+bottom: 70px;
+background-color: rgb(240, 239, 239);
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+}
+.nine .container{
+  padding-top: 20px 0px;
+  padding-bottom: 110px;
+  position: relative;
+  right: 70px;
+  display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
+.ten{
+  padding: 80px 0px;
+  position: relative;
+bottom: 110px;
+}
+.ten .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.ten .container div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+    margin: 10px 0px;
+}
+.ten .container div div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 15px;
+}
+
+.eleven{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  bottom: 130px;
+}
+.eleven .container{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eleven .container div h2{
+font-size: 50px;
+  margin: 30px 0px;
+}
+.eleven .container div button{
+font-size: 25px;
+  padding: 5px 25px;
+  border-radius: 5px;
+}
+.center{
+
+  position: relative;
+
+  left: 50px;
+}

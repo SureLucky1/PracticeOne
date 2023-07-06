@@ -1,0 +1,48 @@
+/*six*/
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.foot .Footer {
+  margin-top: 50px;
+}
+.foot .Footer .item {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  width: 100%;
+}
+.foot .Footer .item div {
+  width: 260px;
+}
+.foot .Footer .item div h4 {
+  font-size: 17px;
+  margin: 20px 0px;
+  color: rgb(151, 150, 150);
+}
+.foot .footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.foot .footer .title {
+  width: 28%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.foot .footer .title h5 {
+  color: rgb(109, 108, 108);
+}
+.foot .footer .title h6 {
+  margin-top: 9.5px;
+  color: rgb(189, 189, 189);
+}/*# sourceMappingURL=Footer.css.map */

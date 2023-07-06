@@ -1,0 +1,52 @@
+  /*six*/
+  .foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+ width: 100%;
+  .Footer{
+    margin-top: 50px;
+
+    .item{
+      height: 600px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-content: flex-start;
+      width: 100%;
+      div{
+    width: 260px;
+    h4{
+    font-size: 17px;
+    margin: 20px 0px;
+    color: rgb(151, 150, 150);
+    }
+    }
+    }
+    }
+    .footer{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-content: center;
+
+      .title{
+        width: 28%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        
+        h5{
+
+          color: rgb(109, 108, 108);
+        }
+        h6{
+          margin-top: 9.5px;
+          color: rgb(189, 189, 189);
+        }
+      }
+    } 
+  }
