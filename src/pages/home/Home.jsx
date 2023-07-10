@@ -7,7 +7,7 @@ import AdaptiveHeight from "./VideoSlide";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
-
+import Navbar from "../navbar/NavbarRevised";
 function Home() {
 
 const colorList = ["black", "rgb(23, 95, 5)", "rgb(255,20,147)", "rgb(128,0,0)", "green", "rgb(139,69,19)"];
@@ -15,7 +15,8 @@ const [color, setColor] = useState(colorList[0]);
 const [Inmy, setInmy] = useState(0);
 
 useEffect(() => {
-  const myInterval = setInterval(() => {    setInmy((Inmy) => {if (Inmy === colorList.length - 1) {
+  const myInterval = setInterval(() => {
+    setInmy((Inmy) => {if (Inmy === colorList.length - 1) {
              console.log(Inmy);
             Inmy = 0;
          }else {
@@ -28,6 +29,7 @@ useEffect(() => {
 useEffect(() => {
   setColor(colorList[Inmy]);
  }, [Inmy]);
+
 
   const styles = {
     backgroundImage: 'url(./img/bg-signup-1400-x1.jpg)',
